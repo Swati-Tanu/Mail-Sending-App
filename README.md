@@ -13,7 +13,7 @@ A simple server that enables to send mails through. The application is made usin
 1. npm i express
 2. npm i nodemailer
 * To start the project run the following command in terminal:
-1. node app.js
+1. node index.js
 * You can modify the sender's and receiver's mail detail by editing it in the main.js file present under controllers folder.
 * Explore the code by opening the file in a text editor and following the comments.
 
