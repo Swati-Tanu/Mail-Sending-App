@@ -39,7 +39,7 @@ https://user-images.githubusercontent.com/112818778/221358004-fe4c9e07-6f07-44e1
 
 ## Deployment
 
-The deployed link of the project: 
+The deployed link of the project: https://jolly-bass-flip-flops.cyclic.app/
 #### 
 
 ## Contributions
