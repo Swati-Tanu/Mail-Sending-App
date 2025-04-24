@@ -2,7 +2,26 @@ openapi: 3.0.0
 info:
   title: Mail Sender API
   version: 1.0.0
-  description: API to send mail using Node and Nodemailer
+  description: |
+    The **Mail Sender API** is a lightweight and easy-to-use RESTful API built with Node.js and Express for sending emails.
+
+    This API uses [Nodemailer](https://nodemailer.com/about/) under the hood and is ideal for:
+    - Contact forms
+    - Notification systems
+    - Custom email flows (like verification or onboarding)
+
+    ### Features:
+    - 📧 Send transactional or custom emails
+    - 🔒 Secured with environment-based SMTP credentials
+    - 📝 Auto-generated documentation using Swagger UI
+
+    ### Authentication:
+    - This API does not require token-based authentication by default.
+    - You can integrate OAuth, API Keys, or session auth if needed.
+
+    ---
+    > 🔧 Make sure to set your SMTP config via environment variables before using.
+
 servers:
   - url: http://localhost:4800
 
