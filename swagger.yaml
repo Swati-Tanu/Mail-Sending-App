@@ -23,7 +23,7 @@ info:
     > 🔧 Make sure to set your SMTP config via environment variables before using.
 
 servers:
-  - url: http://localhost:4800
+  - url: https://mail-sender-app-lp6r.onrender.com/
 
 paths:
   /:
