@@ -1,0 +1,57 @@
+openapi: 3.0.0
+info:
+  title: Mail Sender API
+  version: 1.0.0
+  description: API to send mail using Node and Nodemailer
+servers:
+  - url: http://localhost:4800
+
+paths:
+  /:
+    get:
+      summary: Check if the server is running
+      responses:
+        "200":
+          description: Server is up and running
+          content:
+            text/plain:
+              example: The Server
+        "500":
+          description: Internal server error
+
+  /mail:
+    get:
+      summary: Send a test email using Nodemailer
+      responses:
+        "200":
+          description: Email sent successfully
+          content:
+            application/json:
+              example:
+                accepted:
+                  - "akki@gmail.com"
+                  - "albert@gmail.com"
+                rejected: []
+                ehlo:
+                  - "PIPELINING"
+                  - "8BITMIME"
+                  - "SMTPUTF8"
+                  - "AUTH LOGIN PLAIN"
+                envelopeTime: 772
+                messageTime: 496
+                messageSize: 597
+                response: "250 Accepted [STATUS=new MSGID=aApFThuuJ2fHYcy9aApItHWFHbGJC3JaAAAAB.KiMwnvGa0KlGRGQ.c5z7k]"
+                envelope:
+                  from: "ceo@gmail.com"
+                  to:
+                    - "akki@gmail.com"
+                    - "albert@gmail.com"
+                messageId: "<e0ecf33a-7da4-88fa-7fdd-4619e56aa576@gmail.com>"
+        "400":
+          description: Bad request (missing or invalid input)
+        "401":
+          description: Unauthorized (invalid email credentials)
+        "429":
+          description: Too many requests (rate limited)
+        "500":
+          description: Internal server error (SMTP failure, etc.)
