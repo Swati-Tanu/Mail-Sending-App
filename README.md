@@ -19,7 +19,7 @@ A simple server that enables to send mails through. The application is made usin
 
 ## Demo
 
-[Live](https://mail-sender-app-lp6r.onrender.com//)
+[Live](https://mail-sender-app-lp6r.onrender.com/)
 
 [Doc](https://mail-sender-app-lp6r.onrender.com/api-docs)
 
