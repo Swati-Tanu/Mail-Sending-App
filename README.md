@@ -19,9 +19,9 @@ A simple server that enables to send mails through. The application is made usin
 
 ## Demo
 
-[Live](https://write-up-fk91.onrender.com/)
+[Live](https://mail-sender-app-lp6r.onrender.com//)
 
-[Doc](https://write-up-fk91.onrender.com/api-docs)
+[Doc](https://mail-sender-app-lp6r.onrender.com/api-docs)
 
 A short video demo of the complete project:
 
