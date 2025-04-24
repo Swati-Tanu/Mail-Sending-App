@@ -19,6 +19,10 @@ A simple server that enables to send mails through. The application is made usin
 
 ## Demo
 
+[Live](https://write-up-fk91.onrender.com/)
+
+[Doc](https://write-up-fk91.onrender.com/api-docs)
+
 A short video demo of the complete project:
 
 
