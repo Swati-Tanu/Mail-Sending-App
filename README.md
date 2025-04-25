@@ -20,7 +20,11 @@ A simple server that enables to send mails through. The application is made usin
 
 [Live](https://mail-sender-app-lp6r.onrender.com/)
 
-[Doc](https://mail-sender-app-lp6r.onrender.com/api-docs)
+[Swagger UI](https://mail-sender-app-lp6r.onrender.com/api-docs)
+
+[Postman Collection](https://github.com/user-attachments/files/19903748/MailSendingAPI.postman_collection.json)
+
+
 
 A short video demo of the complete project:
 
